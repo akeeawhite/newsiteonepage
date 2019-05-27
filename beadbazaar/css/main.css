@@ -1,0 +1,400 @@
+/*
+	Bead Bazaar Bootstrap Theme
+	Author: Akeea White
+	Version: 0.0.2
+*/
+/* Layouts- Page layout style */
+/*BODY*/
+/* line 2, ../scss/layouts/_body.scss */
+p {
+  font-family: 'Oswald', sans-serif;
+  font-weight: lighter;
+  font-size: 1.4em;
+}
+
+/* line 8, ../scss/layouts/_body.scss */
+hr {
+  border: 1px solid #ec694c;
+}
+
+/* line 12, ../scss/layouts/_body.scss */
+body {
+  background-color: #1cbbb4;
+}
+
+/* Navbar */
+/* line 3, ../scss/layouts/_navbar.scss */
+.navbar {
+  -webkit-animation-delay: .5s;
+}
+
+/* line 7, ../scss/layouts/_navbar.scss */
+header {
+  -webkit-animation-delay: 1s;
+}
+
+/* line 11, ../scss/layouts/_navbar.scss */
+.navbar-default {
+  background-color: #000000;
+  margin-bottom: 0;
+  border: none;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  font-weight: lighter;
+}
+/* line 18, ../scss/layouts/_navbar.scss */
+.navbar-default .navbar-brand {
+  color: #ffffff;
+  font-family: 'Dr Sugiyama', cursive;
+  font-size: 1.5em;
+}
+/* line 22, ../scss/layouts/_navbar.scss */
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+  color: #ec694c;
+}
+/* line 26, ../scss/layouts/_navbar.scss */
+.navbar-default .navbar-text {
+  color: #ecf0f1;
+}
+/* line 31, ../scss/layouts/_navbar.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+/* line 33, ../scss/layouts/_navbar.scss */
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #ecf0f1;
+}
+/* line 37, ../scss/layouts/_navbar.scss */
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #ec694c;
+  font-size: 1.1em;
+  font-weight: lighter;
+}
+/* line 42, ../scss/layouts/_navbar.scss */
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #ffffff;
+  font-weight: lighter;
+}
+/* line 45, ../scss/layouts/_navbar.scss */
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover, .navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #ffffff;
+  background-color: #ed8c77;
+  font-weight: lighter;
+}
+/* line 51, ../scss/layouts/_navbar.scss */
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #ed8c77;
+}
+/* line 57, ../scss/layouts/_navbar.scss */
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a {
+  color: #ffffff;
+  background-color: #ed8c77;
+}
+/* line 60, ../scss/layouts/_navbar.scss */
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #ffffff;
+  background-color: #ed8c77;
+}
+/* line 66, ../scss/layouts/_navbar.scss */
+.navbar-default .navbar-nav > .active > a {
+  color: #ffffff;
+  background-color: #ed8c77;
+}
+/* line 69, ../scss/layouts/_navbar.scss */
+.navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: #ed8c77;
+}
+/* line 74, ../scss/layouts/_navbar.scss */
+.navbar-default .navbar-nav > .open > a {
+  color: #ffffff;
+  background-color: #ed8c77;
+}
+/* line 77, ../scss/layouts/_navbar.scss */
+.navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+  color: #ffffff;
+  background-color: #ed8c77;
+}
+/* line 84, ../scss/layouts/_navbar.scss */
+.navbar-default .navbar-toggle {
+  color: #ffffff;
+  border-color: #ed8c77;
+}
+/* line 87, ../scss/layouts/_navbar.scss */
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #ed8c77;
+}
+/* line 90, ../scss/layouts/_navbar.scss */
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ec694c;
+}
+/* line 94, ../scss/layouts/_navbar.scss */
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: #ec694c;
+}
+/* line 97, ../scss/layouts/_navbar.scss */
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+/* line 99, ../scss/layouts/_navbar.scss */
+.navbar-default .navbar-link:hover {
+  color: #ffffff;
+}
+
+@media (max-width: 767px) {
+  /* line 107, ../scss/layouts/_navbar.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  /* line 109, ../scss/layouts/_navbar.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #ffffff;
+  }
+  /* line 113, ../scss/layouts/_navbar.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a {
+    color: #ffffff;
+    background-color: #ed8c77;
+  }
+  /* line 116, ../scss/layouts/_navbar.scss */
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #ffffff;
+    background-color: #ed8c77;
+  }
+}
+/* social icons */
+/* line 126, ../scss/layouts/_navbar.scss */
+.facebook, .twitter, .instagram, .linkedin {
+  font-size: 1.4em;
+  color: #ffffff;
+  text-align: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* line 135, ../scss/layouts/_navbar.scss */
+.facebook:hover, .twitter:hover, .instagram:hover, .linkedin:hover {
+  color: #ec694c;
+}
+
+/* MAIN CONTENT */
+/* line 3, ../scss/layouts/_mcontent.scss */
+.main-content {
+  padding: 10px 20px 100px 10px;
+  color: #ffffff;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+/* line 8, ../scss/layouts/_mcontent.scss */
+.main-content h2, .main-content h3 {
+  padding: 10px 30px;
+  margin-bottom: 50px;
+  display: inline-block;
+  font-family: 'Oswald', sans-serif;
+  color: #ffffff;
+  background-color: #ec694c;
+}
+/* line 16, ../scss/layouts/_mcontent.scss */
+.main-content h4 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-size: 1.4em;
+  font-family: 'Oswald', sans-serif;
+}
+/* line 22, ../scss/layouts/_mcontent.scss */
+.main-content h4 small {
+  color: #ffffff;
+  font-size: .7em;
+  border-color: #a0a0a0;
+  padding-left: 10px;
+  margin-left: 5px;
+}
+/* line 30, ../scss/layouts/_mcontent.scss */
+.main-content p {
+  color: #ffffff;
+  font-size: 1.4em;
+}
+
+/*Carousel*/
+/* line 38, ../scss/layouts/_mcontent.scss */
+.btn-custom {
+  background-color: #ec694c;
+}
+/* line 40, ../scss/layouts/_mcontent.scss */
+.btn-custom:hover {
+  background-color: #ec694c;
+}
+
+/* line 45, ../scss/layouts/_mcontent.scss */
+.title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bolder;
+  font-size: 3em;
+}
+
+/* Images*/
+/* line 53, ../scss/layouts/_mcontent.scss */
+.profile-pic {
+  height: 350px;
+  width: 450px;
+  position: 50% 50%;
+  overflow: hidden;
+  margin: 42px 30px 25px 25px;
+  padding: 15px;
+}
+
+/*Buttons*/
+/* line 64, ../scss/layouts/_mcontent.scss */
+.btn-group-custom {
+  background-color: #ec694c;
+  margin-bottom: 40px;
+  font-family: 'Oswald', sans-serif;
+}
+
+/* line 70, ../scss/layouts/_mcontent.scss */
+.btn-custom {
+  color: #ffffff;
+  font-weight: bolder;
+}
+/* line 73, ../scss/layouts/_mcontent.scss */
+.btn-custom > a:hover {
+  color: #1cbbb4;
+  font-weight: bolder;
+}
+
+/* line 79, ../scss/layouts/_mcontent.scss */
+.btn-group-wrap {
+  text-align: center;
+}
+
+/* line 83, ../scss/layouts/_mcontent.scss */
+div.btn-group {
+  margin: auto;
+  text-align: center;
+  width: inherit;
+  display: inline-block;
+}
+
+/*Table*/
+/* line 92, ../scss/layouts/_mcontent.scss */
+.table {
+  margin: 40px 0;
+}
+/* line 94, ../scss/layouts/_mcontent.scss */
+.table td {
+  text-align: center;
+  font-size: 1.2em;
+  font-family: 'Oswald', sans-serif;
+}
+/* line 99, ../scss/layouts/_mcontent.scss */
+.table th {
+  text-align: center;
+  font-size: 1.2em;
+  font-family: 'Oswald', sans-serif;
+  background-color: #ec694c;
+}
+/* line 105, ../scss/layouts/_mcontent.scss */
+.table td {
+  background-color: #ed8c77;
+}
+
+/*Class Content*/
+/* line 113, ../scss/layouts/_mcontent.scss */
+.classes {
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+/* line 119, ../scss/layouts/_mcontent.scss */
+.description {
+  margin-top: 95px;
+  margin-bottom: 75px;
+  padding: 10px 20px 10px 10px;
+}
+
+/* CONTACT INFO */
+/* line 127, ../scss/layouts/_mcontent.scss */
+.contact {
+  margin-bottom: 40px;
+}
+/* line 129, ../scss/layouts/_mcontent.scss */
+.contact > a {
+  margin-right: 20px;
+}
+
+/* line 134, ../scss/layouts/_mcontent.scss */
+label {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.3em;
+  margin-top: 5px;
+  font-weight: lighter;
+}
+
+/* line 141, ../scss/layouts/_mcontent.scss */
+input {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+  color: #000000;
+  font-family: 'Oswald', sans-serif;
+  padding: 0 20px;
+  font-size: 1.3em;
+}
+/* line 149, ../scss/layouts/_mcontent.scss */
+input:focus {
+  border: 3px solid #ec694c;
+  box-shadow: 0 0 5px 1px #ec694c;
+}
+
+/* line 155, ../scss/layouts/_mcontent.scss */
+.send {
+  width: 180px;
+  background-color: #ec694c;
+  margin-bottom: 20px;
+}
+
+/* line 161, ../scss/layouts/_mcontent.scss */
+.message {
+  height: 220px;
+  padding-bottom: 170px;
+}
+
+/* FOOTER */
+/* line 3, ../scss/layouts/_footer.scss */
+footer {
+  height: 210px;
+  padding: 90px;
+  background-color: #000000;
+  color: #fff;
+  margin: 0 auto -210px;
+  /* the bottom margin is the negative value of the footer's height */
+}
+
+/* line 12, ../scss/layouts/_footer.scss */
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -200px;
+  /* the bottom margin is the negative value of the footer's height */
+  background-color: #000000;
+}
+
+/* line 22, ../scss/layouts/_footer.scss */
+h4.pull-left, h4.pull-right {
+  color: #fff;
+  font-family: 'Oswald', sans-serif;
+  font-weight: lighter;
+}
+
+/* line 29, ../scss/layouts/_footer.scss */
+footer a {
+  color: #ec694c;
+}
+/* line 31, ../scss/layouts/_footer.scss */
+footer a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}

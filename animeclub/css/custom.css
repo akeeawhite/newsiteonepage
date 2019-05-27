@@ -1,0 +1,283 @@
+/*
+Purpose: 
+The main goal of this site is to demonstrate fimiliarity with bootstrap, 
+as well as create a clean organize layout though out the site.
+Verison: 2.0
+Detailed Changes: 
+Added spacing on the navbar, and main content, as well as
+line-height on the content. Added orange box around "Our Values".
+Created By: Akeea White
+Date: 12/30/2018
+*/
+
+/*COMMON TAGS*/
+body,html {width:100%;height:100%;}
+body {
+	background-color: #0a1030;
+	font-family: 'Oswald', sans-serif; 
+	font-weight: lighter;
+	color: #fff !important;
+}
+
+p { font-weight: lighter; }
+
+hr { border: 2px solid #f68e56; }
+
+
+
+/*NAVBAR*/
+.navbar { animation-delay: 1s; }
+header { animation-delay: 1s; }
+
+.navbar-default {
+	background-color: #1e2851;
+	margin-bottom: 0;
+	border: none;
+}
+
+
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #f68e56;
+  }
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #f68e56;
+}
+
+.navbar-nav li a {
+	height: 70px;
+	line-height: 30px;
+	padding: 10px 30px;
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 1.3em;
+	text-align: center;
+}
+
+.navbar-brand {
+	height: 50px;
+	line-height: 25px;
+	padding: 15px 30px 10px;
+	font-family: 'Fugaz One', cursive;
+	font-size: 1.3em;
+	text-align: center;
+}
+
+.navbar-brand, .navbar-nav li a {margin-top: 12px;}
+
+.navbar-default .navbar-nav>li>a {color: #fff;}
+
+.navbar-default .navbar-toggle {
+	margin: 20px 25px 20px 0;
+	color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #f68e56;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #fff;
+}
+
+
+/*SOCIAL MEDIA ICONS*/
+li.facebook a {
+	font-size: 1.8em;
+	text-align: center;
+}
+
+li.deviantart a {
+	font-size: 1.8em;
+	text-align: center;
+}
+
+li.facebook a:hover,
+li.deviantart a:hover{
+	 opacity: .7;
+}
+
+
+/* HEADERS*/
+header {
+	height: 650px;
+	text-align: center;
+	padding-top: 60px;	
+}
+
+header h1 {
+	margin-top: 40px;
+	font-size: 3em;
+	color: #fff;
+	font-family: 'Fugaz One', cursive;	
+}
+
+header p {
+	padding: 0 20px;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
+	color: #fff;
+}
+
+.wide {
+	width: 100%;
+	background-image: url(../images/mac_banner_blur.jpg);
+	background-size: cover;
+}
+
+
+/* MAIN CONTENT */
+.main-content {
+	padding: 50px 20px 100px 10px;
+	margin-bottom: 20px;
+	color: #fff;
+}
+
+.main-content h2 {
+	padding: 10px 30px;
+	margin-top: 50px;
+	margin-bottom: 20px;
+	display: inline-block;
+	font-family: 'Fjalla One', sans-serif;
+	background-color: #f68e56;
+	
+}
+
+/*.main-content #values {
+	font-size: 1.9em;
+	padding: 10px 20px;
+}*/
+
+.main-content h3 {
+	margin-top: 60px;
+	margin-bottom: 10px;
+	padding-top: 20px;
+	font-size: 1.8em;
+	font-weight: bold;
+	font-family: 'Oswald', sans-serif;
+}
+
+.main-content .spacing {
+	margin-bottom: -30px;
+}
+
+.main-content .about p{
+	font-size: 1.4em;
+	line-height: 40px;
+	margin: 50px 0 60px;
+}
+
+
+/*IMAGES*/
+.images {
+    padding: 10px 20px 0 20px;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+.logo {
+	border: 5px solid #fff;
+	box-shadow: 0px 24px 37px 0px rgba(0,0,0,.1);
+	height: 300px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+
+/* CONTACT INFO */
+form {
+	margin-top: 50px;
+}
+
+div.col-md-12 {
+	padding: 0 15px 0 20px;
+}
+
+
+input {
+	width: 100%;
+	height: 50px;
+	margin-bottom: 20px;
+	color: #b9b9b9;
+	font-family: 'Oswald', sans-serif;
+	padding: 0 20px;
+	font-size: 1.3em;
+}
+
+label {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
+	color: #fff;
+}
+
+input:focus {
+	border: 3px solid #f68e56;
+	box-shadow: 0 0 5px 1px #f68e56;
+}
+
+.send { 
+	width: 180px; 
+	margin-top: 30px;
+	background-color: #f68e56;
+	border: 3px solid #f68e56;
+	color: #fff;
+}
+
+.send:hover { 
+	color:  #0a1030;
+	border: 3px solid #0a1030;
+}
+
+.message {
+	height: 200px;
+	padding-bottom: 170px;
+}
+
+
+/* FOOTER */
+footer {
+	width: 100%;
+	height: 230px;
+	padding: 80px 100px;
+	color: #fff;
+	background-color: #1e2851;
+	margin-bottom: -30px;
+}
+
+
+.pull-left a {
+	color: #fff;
+	font-size: 1.2em;
+	font-family: 'Fugaz One', cursive;
+}
+
+.pull-right {
+	color: #fff;
+	font-weight: lighter;
+	padding-right: 40px;
+
+}
+
+.pull-right p {
+	padding-top: 3px; 
+}
+
+footer a {
+	color: #ec694c;
+	margin: 30px 0 60px;
+}
+
+footer a:hover {
+	color: #fff;
+	text-decoration:none;
+}

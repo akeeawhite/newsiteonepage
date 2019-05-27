@@ -1,0 +1,225 @@
+/*
+  Created By: Akeea White
+  Date: 2/28/2019
+  Purpose:
+  This faux agency website is intended to demonstrate my understanding of creating a simple 
+  and clean website without the use of javascript and/or any related framework or library.
+*/
+
+body {
+  font: 15px/1.5 Arial, Helvetica,sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/*Global Selectors*/
+
+h1, h2, h3 {font-family: Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+.container, .navcontainer {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+a {text-decoration: none;}
+a:hover {color: rgba(255,255,255,.5)}
+
+ul{
+    margin:0;
+    padding:0;
+}
+
+h2, p {text-align: center;}
+
+h3 {font-size: 1.5em;}
+
+section h2, section p {margin-top: 40px; margin-bottom: 30px;}
+
+/*Navigation and footer*/
+
+/*background-color: #CC453F;*/
+
+header, footer {
+    background-color: #DA3A2E;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    width: 100%;
+}
+
+
+header a{
+    font-size: 16px;
+    color: #ffffff;
+}
+
+header #logo{
+    float:left;
+  }
+  
+header #logo h2{
+    margin:0;
+  }
+
+
+header nav{
+    float:right;
+    color: #ffffff;
+    padding-top: 5px;
+}
+
+header li {
+    display: inline;
+    list-style-type: none;
+    float: left;
+    padding: 0 20px 0 20px;
+}
+
+/* Section*/
+section {padding:2rem 0;}
+
+section p {
+    line-height: 30px;
+    margin-top: 15px;
+}
+
+section h2 {font-size: 2em;}
+
+/*Landing Page*/
+
+#landingPage {
+    min-height: 400px;
+    padding-bottom: calc(8rem - 56px);
+    background: url(../img/header.jpg) 0 -400px; /*Source:*/
+    background-position: center;
+    background-size: cover;
+    width: 100%;  
+}
+
+header h1, #landingPage h1, #landingPage p {text-align:center; color: #ffffff;}
+
+#landingPage h1{
+    margin-top:150px;
+    font-size:55px;
+    margin-bottom:10px;
+  }
+
+#landingPage p{
+    font-weight:300; 
+    color: rgba(255,255,255,.8); 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: center;
+}
+
+
+/* Services and Team */
+#services{
+    width: 100%;
+    background-color: gainsboro;
+  }
+
+#team{
+    width: 100%;
+    background-color: #fff;
+  }
+
+.box {margin: 25px 0px 50px 0px;}
+
+#services .box, #team .box{
+    float:left;
+    text-align: center;
+    width: 25%;
+    padding: 17px 40px 17px 48px;
+  }
+
+  
+#services .box img,
+#team .box img{
+    width: 90px;
+  }
+
+
+/* Contact Form */
+.form-group {
+  text-align: center;
+}
+
+input {
+	width: 95%;
+  height: 50px;
+  margin-top: 20px;
+	margin-bottom: 20px;
+	color: #b9b9b9;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	padding: 0 20px;
+  font-size: 1.3em; 
+}
+
+label {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-size: 1.5em;
+	color: #fff;
+}
+
+input:focus {
+	border: 3px solid #DA3A2E;
+}
+
+/*box-shadow: 0 0 5px 1px #DA3A2E;*/
+
+.send { 
+	width: 25%; 
+  margin-top: 30px;
+  margin-bottom: 60px;
+	background-color: #DA3A2E;
+  color: #fff;
+  text-align: center
+}
+
+.send:hover { 
+  color:  rgba(255,255,255,.5);
+  border: 3px solid rgba(255,255,255,.5);
+}
+
+/*Media Queries*/
+
+@media (max-width:768px){
+  header #logo,
+  header nav,
+  header nav h2,
+  header nav li,
+  #services .box{
+    float:none;
+    text-align:center;
+    width:100%;
+  }  
+
+  .form-group {text-align: center;}
+  input{width: 70%; margin: 0; padding: 0; height: 50px;}
+  .send{width: 70%;}
+  .container {width: 80%;}
+
+  header nav {padding-top: 0;}
+  h1{font-size:1.5rem; margin-top: 100px;}
+  
+  #services .box, #team .box{ padding:10px 0; margin: 5px 0;}
+}
+
+@media (max-width:992px){
+    #landingPage{
+        padding-top:0;
+        padding-bottom:0;
+    }
+    #landingPage h1{font-size:2.95rem; margin-top: 100px;}
+}
+
+/*@media (max-width:1200px){#landingPage h1{font-size:4rem; margin-top: 100px;}}*/
+
+
+footer p, footer a {
+    color: #ffffff;
+    text-align: center;
+}

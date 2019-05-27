@@ -1,0 +1,351 @@
+p {
+  font-family: 'Oswald', sans-serif;
+  font-weight: lighter;
+  font-size: 1.4em;
+}
+
+hr {
+  border: 1px solid #ec694c;
+}
+
+body {
+  background-color: #1cbbb4;
+}
+
+/* Navbar */
+
+.navbar {
+  -webkit-animation-delay: .5s;
+}
+
+header {
+  -webkit-animation-delay: 1s;
+}
+
+.navbar-default {
+  background-color: #000000;
+  margin-bottom: 0;
+  border: none;
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  font-weight: lighter;
+  .navbar-brand {
+    color: #ffffff;
+    font-family: 'Dr Sugiyama', cursive;
+    font-size: 1.5em;
+    &:hover, &:focus {
+      color: #ec694c;
+    }
+  }
+  .navbar-text {
+    color: #ecf0f1;
+  }
+  .navbar-nav {
+    > li > {
+      a {
+        color: #ffffff;
+        &:hover, &:focus {
+          color: #ecf0f1;
+        }
+      }
+      .dropdown-menu {
+        background-color: #ec694c;
+        font-size: 1.1em;
+        font-weight: lighter;
+        > li > {
+          a {
+            color: #ffffff;
+            font-weight: lighter;
+            &:hover, &:focus {
+              color: #ffffff;
+              background-color: #ed8c77;
+              font-weight: lighter;
+            }
+          }
+          .divider {
+            background-color: #ed8c77;
+          }
+        }
+      }
+    }
+    .open .dropdown-menu > .active > a {
+      color: #ffffff;
+      background-color: #ed8c77;
+      &:hover, &:focus {
+        color: #ffffff;
+        background-color: #ed8c77;
+      }
+    }
+    > {
+      .active > a {
+        color: #ffffff;
+        background-color: #ed8c77;
+        &:hover, &:focus {
+          color: #ffffff;
+          background-color: #ed8c77;
+        }
+      }
+      .open > a {
+        color: #ffffff;
+        background-color: #ed8c77;
+        &:hover, &:focus {
+          color: #ffffff;
+          background-color: #ed8c77;
+        }
+      }
+    }
+  }
+  .navbar-toggle {
+    color: #ffffff;
+    border-color: #ed8c77;
+    &:hover, &:focus {
+      background-color: #ed8c77;
+    }
+    .icon-bar {
+      background-color: #ec694c;
+    }
+  }
+  .navbar-collapse, .navbar-form {
+    border-color: #ec694c;
+  }
+  .navbar-link {
+    color: #ffffff;
+    &:hover {
+      color: #ffffff;
+    }
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > {
+    li > a {
+      color: #ffffff;
+      &:hover, &:focus {
+        color: #ffffff;
+      }
+    }
+    .active > a {
+      color: #ffffff;
+      background-color: #ed8c77;
+      &:hover, &:focus {
+        color: #ffffff;
+        background-color: #ed8c77;
+      }
+    }
+  }
+}
+
+/* MAIN CONTENT */
+
+.main-content {
+  padding: 10px 20px 100px 10px;
+  color: #ffffff;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  h2, h3 {
+    padding: 10px 30px;
+    margin-bottom: 50px;
+    display: inline-block;
+    font-family: 'Oswald', sans-serif;
+    color: #ffffff;
+    background-color: #ec694c;
+  }
+  h4 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 1.4em;
+    font-family: 'Oswald', sans-serif;
+    small {
+      color: #ffffff;
+      font-size: .7em;
+      border-color: #a0a0a0;
+      padding-left: 10px;
+      margin-left: 5px;
+    }
+  }
+  p {
+    color: #ffffff;
+    font-size: 1.4em;
+  }
+}
+
+/*Carousel*/
+
+.btn-custom {
+  background-color: #ec694c;
+  &:hover {
+    background-color: #ec694c;
+  }
+}
+
+.title {
+  font-family: 'Oswald', sans-serif;
+  font-weight: bolder;
+  font-size: 3em;
+}
+
+/* Images*/
+
+.profile-pic {
+  height: 350px;
+  width: 450px;
+  position: 50% 50%;
+  overflow: hidden;
+  margin: 42px 30px 25px 25px;
+  padding: 15px;
+}
+
+/*Buttons*/
+
+.btn-group-custom {
+  background-color: #ec694c;
+  margin-bottom: 40px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.btn-custom {
+  color: #ffffff;
+  font-weight: bolder;
+  > a:hover {
+    color: #1cbbb4;
+    font-weight: bolder;
+  }
+}
+
+.btn-group-wrap {
+  text-align: center;
+}
+
+div.btn-group {
+  margin: auto;
+  text-align: center;
+  width: inherit;
+  display: inline-block;
+}
+
+/*Table*/
+
+.table {
+  margin: 40px 0;
+  td {
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Oswald', sans-serif;
+  }
+  th {
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Oswald', sans-serif;
+    background-color: #ec694c;
+  }
+  td {
+    background-color: #ed8c77;
+  }
+}
+
+/* social icons */
+
+.facebook, .twitter, .instagram, .linkedin {
+  font-size: 1.4em;
+  color: #ffffff;
+  text-align: center;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.facebook:hover, .twitter:hover, .instagram:hover, .linkedin:hover {
+  color: #ec694c;
+}
+
+/*Class Content*/
+
+.classes {
+  margin-bottom: 20px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.description {
+  margin-top: 95px;
+  margin-bottom: 75px;
+  padding: 10px 20px 10px 10px;
+}
+
+/* CONTACT INFO */
+
+.contact {
+  margin-bottom: 40px;
+  > a {
+    margin-right: 20px;
+  }
+}
+
+label {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.3em;
+  margin-top: 5px;
+  font-weight: lighter;
+}
+
+input {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 20px;
+  color: #000000;
+  font-family: 'Oswald', sans-serif;
+  padding: 0 20px;
+  font-size: 1.3em;
+  &:focus {
+    border: 3px solid #ec694c;
+    box-shadow: 0 0 5px 1px #ec694c;
+  }
+}
+
+.send {
+  width: 180px;
+  background-color: #ec694c;
+  margin-bottom: 20px;
+}
+
+.message {
+  height: 220px;
+  padding-bottom: 170px;
+}
+
+/* FOOTER */
+
+footer {
+  height: 210px;
+  padding: 90px;
+  background-color: #000000;
+  color: #fff;
+  margin: 0 auto -210px;
+  /* the bottom margin is the negative value of the footer's height */
+}
+
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -200px;
+  /* the bottom margin is the negative value of the footer's height */
+  background-color: #000000;
+}
+
+h4 {
+  &.pull-left, &.pull-right {
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    font-weight: lighter;
+  }
+}
+
+footer a {
+  color: #ec694c;
+  &:hover {
+    color: #ffffff;
+    text-decoration: none;
+  }
+}

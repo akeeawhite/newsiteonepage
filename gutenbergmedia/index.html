@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="zxx">
+    <!--
+    Created By: Akeea White
+    Date: 2/28/2019
+    Purpose:
+    This faux agency website is intended to demonstrate my understanding of creating a simple 
+    and clean website without the use of javascript and/or any related framework or library.
+    -->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta name="description" content="This faux agency website is intended to demonstrate my understanding of creating a simple 
+        and clean website without the use of javascript and/or any related framework or library.">
+        <meta name="author" content="Akeea White">
+        <title>Gutenberg Media</title>
+        <link rel='stylesheet' href='css/styles.css'/>
+    </head>
+    <body> 
+        <header>
+            <div class="container">
+              <div id="logo">
+                <h2>Gutenberg Media</h2>
+              </div>
+              <nav>
+                <ul>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#services">Services</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+              </nav>
+            </div>
+          </header>
+          <section id="landingPage">
+            <div class="container">  
+                <h1>Gutenberg Media</h1>
+                <p class="text-faded">Bringing your idea's to life from the ground up</p>
+            </div>
+         </section>
+
+         
+        <section id="about">
+            <div class="container">
+                <h2>About Us</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras dignissim congue lectus nec scelerisque. Cras eros nunc, pharetra ut dolor ut, mattis dictum eros. 
+                In hac habitasse platea dictumst. Maecenas id est at risus posuere egestas at at ligula. Mauris at congue ex. 
+                Phasellus at elit imperdiet sapien bibendum gravida. Vivamus sollicitudin at nibh semper pellentesque. 
+                Sed ultrices interdum arcu, at porttitor tellus ornare nec. 
+                Integer libero eros, rutrum non leo et, sollicitudin porttitor ipsum. 
+                Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. 
+                Fusce vitae velit eget odio faucibus finibus. Suspendisse sit amet dapibus purus. 
+                Etiam fermentum commodo viverra. Donec sodales sed quam ut posuere.
+              </p>
+           </div>
+        </section><!--About Us-->
+        <section id="services">
+            <div class="container">
+                <h2>Services</h2>
+            </div>
+            <div class="container">
+              <div class="box">
+                <img src="svgs/pencil-ruler.svg" alt="logo">
+                <h3>Web Design</h3>
+              <p class="text-muted mb-0">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+                <div class="box">
+                <img src="img/logo_brush.png" alt="logo">
+                <h3>Web Development</h3>
+              <p class="text-muted mb-0">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+              </div>
+                <div class="box">
+                <img src="svgs/tools.svg" alt="logo">
+                <h3>Website Maintance</h3>
+              <p class="text-muted mb-0">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+                nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </p>
+            </div>
+            </div>
+        </section><!--Services-->
+        <section id="contact">
+            <div class="container">
+                <div>
+                  <h2>Connect With Us</h2>
+                  <p class="mb-5">Ready to start your next project with us? That's great! 
+                    Give us a call at 202-555-0149 or send us this form below and we will get back to you as soon as possible!
+                  </p>
+                </div>
+                <form action="#" method="POST" name="contactForm"> <!--role=form-->
+                  <div class="form-group">
+                    <!--<label for="contactName">NAME*</label>-->
+                    <input type="text" id="contactName" name="fullname" placeholder="Name">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                    <!--<label for="contactMail">EMAIL*</label>-->
+                    <input type="text" id="contactMail" name="email" placeholder="Email">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                    <!--<label for="contactSub">SUBJECT*</label>-->
+                    <input type="text" id="contactSub" name="subject" placeholder="Subject">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                    <!--<label for="contactMessage">MESSAGE*</label>-->
+                    <input type="text" class="message" id="contactMessage" name="message" placeholder="Message">
+                    </div>
+                    <!--<p>Star (*) denotes required fields</p>--><!--Include a class-->
+                    <br>
+                    <div class="form-group">
+                    <input type="button" class="send" id="contactSend" value="SEND MESSAGE">
+                    </div>
+                </form>          
+            </div>
+        </section><!--Contact-->
+        <footer>
+            <div class="container">
+                <p>&copy; 2019 Gutenberg Media. Coded By <a href="../index.html">AKEEA WHITE</a></p>
+
+            </div>
+        </footer>
+    </body>
+</html>
